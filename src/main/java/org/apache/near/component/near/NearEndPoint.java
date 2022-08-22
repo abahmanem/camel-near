@@ -60,10 +60,10 @@ public class NearEndPoint extends DefaultEndpoint {
 	}
 
 	/**
-	 * Create a Casper Consumer component
+	 * Create a Near Consumer component
 	 *
 	 * @param processor : Apache Camel Processor
-	 * @return CasperConsumer : Casper Consumer component
+	 * @return NearConsumer : Near Consumer component
 	 * @throws Exception : exception
 	 */
 	@Override
@@ -76,9 +76,9 @@ public class NearEndPoint extends DefaultEndpoint {
 	}
 
 	/**
-	 * Create a Casper Producer component
+	 * Create a Near Producer component
 	 * 
-	 * @return CasperProducer : Casper Producer component
+	 * @return NearProducer : Near Producer component
 	 * @throws Exception : exception
 	 */
 	@Override
@@ -104,7 +104,7 @@ public class NearEndPoint extends DefaultEndpoint {
 	/**
 	 * Validate node Url
 	 * 
-	 * @param url : Casper Node url
+	 * @param url : Near Node url
 	 * @throws URISyntaxException : uRISyntaxException
 	 */
 	public void validateAndSetURL(String url) throws URISyntaxException {
