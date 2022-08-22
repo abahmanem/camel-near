@@ -6,6 +6,6 @@ Camel NEAR component for interacting with NEAR network using RPC calls (Java SDK
 ---
 ## VALIDATORS
 ```java
-from("direct:start").to("near://node_url?operation=VALIDATORS&deployHash=value")
+from("direct:start").to("near://node_url?operation=VALIDATORS")
 ```
 Returns the list of current validators
