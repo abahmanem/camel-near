@@ -23,7 +23,7 @@ import com.syntifi.near.api.service.NearService;
 public class NearProducer extends HeaderSelectorProducer {
 
 	/**
-	 * Camel Casper endpoint
+	 * Camel Near endpoint
 	 */
 	private final NearEndPoint endpoint;
 	/**
@@ -37,7 +37,7 @@ public class NearProducer extends HeaderSelectorProducer {
 	private final NearConfiguration configuration;
 
 	/**
-	 * CasperProducer constructor
+	 * NearProducer constructor
 	 * 
 	 * @param endpoint      : near endpoint
 	 * @param configuration : nearConfiguration
