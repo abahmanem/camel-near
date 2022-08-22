@@ -32,7 +32,7 @@ public class NearComponent extends DefaultComponent {
 		NearConfiguration conf = configuration != null ? configuration.copy() : new NearConfiguration();
 		NearEndPoint near = new NearEndPoint(uri, remaining, this, conf);
 		setProperties(near, parameters);
-		logger.debug("***** CasperComponent create endpoint ");
+		logger.debug("***** NearComponent create endpoint ");
 		return near;
 	}
 	public NearConfiguration getConfiguration() {
