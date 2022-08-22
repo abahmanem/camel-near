@@ -32,7 +32,7 @@ public class NearProducer extends HeaderSelectorProducer {
 	private final NearService nearService;
 
 	/**
-	 * Casper Camel configuration
+	 * Near Camel configuration
 	 */
 	private final NearConfiguration configuration;
 
