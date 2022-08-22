@@ -16,7 +16,7 @@ import com.launchdarkly.eventsource.EventHandler;
 import com.launchdarkly.eventsource.EventSource;
 
 /**
- * Camel CasperComsumer Component
+ * Camel NearComsumer Component
  * 
  * @author mabahma
  *
@@ -33,7 +33,7 @@ public class NearConsumer extends DefaultConsumer implements ShutdownAware, Susp
 	 * 
 	 * @param endpoint      : endpoint
 	 * @param processor     : consumer Processor
-	 * @param configuration : CasperConfiguration
+	 * @param configuration : NearConfiguration
 	 */
 	public NearConsumer(NearEndPoint endpoint, Processor processor, NearConfiguration configuration) {
 		super(endpoint, processor);
