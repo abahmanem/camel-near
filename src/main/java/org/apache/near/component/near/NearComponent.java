@@ -30,10 +30,10 @@ public class NearComponent extends DefaultComponent {
 	@Override
 	protected Endpoint createEndpoint(String uri, String remaining, Map<String, Object> parameters) throws Exception {
 		NearConfiguration conf = configuration != null ? configuration.copy() : new NearConfiguration();
-		NearEndPoint casper = new NearEndPoint(uri, remaining, this, conf);
-		setProperties(casper, parameters);
+		NearEndPoint near = new NearEndPoint(uri, remaining, this, conf);
+		setProperties(near, parameters);
 		logger.debug("***** CasperComponent create endpoint ");
-		return casper;
+		return near;
 	}
 	public NearConfiguration getConfiguration() {
 		return configuration;
