@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
  */
 
 /**
- * Camel CasperComponent
+ * Camel NearComponent
  * 
  * @author mabahma
  *
@@ -25,7 +25,7 @@ public class NearComponent extends DefaultComponent {
 	private NearConfiguration configuration;
 	public static final  Logger logger = LoggerFactory.getLogger(NearComponent.class);
 	/**
-	 * Create Casper endpoint
+	 * Create Near endpoint
 	 */
 	@Override
 	protected Endpoint createEndpoint(String uri, String remaining, Map<String, Object> parameters) throws Exception {
