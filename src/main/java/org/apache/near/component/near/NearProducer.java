@@ -39,8 +39,8 @@ public class NearProducer extends HeaderSelectorProducer {
 	/**
 	 * CasperProducer constructor
 	 * 
-	 * @param endpoint      : Casper endpoint
-	 * @param configuration : CasperConfiguration
+	 * @param endpoint      : near endpoint
+	 * @param configuration : nearConfiguration
 	 */
 	public NearProducer(NearEndPoint endpoint, final NearConfiguration configuration) {
 		super(endpoint, NearConstants.OPERATION, () -> configuration.getOperationOrDefault(), false);
