@@ -7,12 +7,7 @@ package org.apache.near.component.near;
  */
 public enum ConsumerEvent {
 	DEPLOY_PROCESSED,
-	DEPLOY_ACCEPTED,
-	DEPLOY_EXPIRED,
-	BLOCK_ADDED,
-	FINALITY_SIGNATURE,
-	FAULT,
-	STEP;
+	
 	/**
 	 *  findByName
 	 * @param name : name to search
