@@ -8,10 +8,10 @@ public interface NearConstants {
 	
 	 String VALIDATORS = "VALIDATORS";
 
-    String OPERATION = "OPERATION";
+         String OPERATION = "OPERATION";
     
-	String TESTNET_NODE_URL = "http://65.108.1.10:3030";
+	 String TESTNET_NODE_URL = "http://65.108.1.10:3030";
 	
-	String ENDPOINT_SERVICE="";
+	 String ENDPOINT_SERVICE="";
     
 }
