@@ -14,7 +14,7 @@ import org.apache.commons.lang3.StringUtils;
 import com.syntifi.near.api.service.NearService;
 
 /**
- * Camel CasperProducer component
+ * Camel NearProducer component
  * 
  * @author mabahma
  *
